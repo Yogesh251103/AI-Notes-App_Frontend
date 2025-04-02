@@ -62,7 +62,7 @@ const AddNoteModal = ({ modalOpen }: AddNoteProps) => {
         </div>
         {contentEmpty && <p className="text-red-700">Content can't be empty</p>}
         <textarea
-          className="p-4 pt-15 min-w-[600px] w-full min-h-[500px] focus:outline-none resize-none"
+          className="p-4 pt-15 w-full min-h-[500px] focus:outline-none resize-none"
           placeholder="Type your notes here..."
           onChange={handleContentChange} 
         />
