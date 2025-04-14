@@ -12,4 +12,11 @@ export type CreateNoteProps = {
 export type NoteCardProps = {
   title: string;
   content: string;
+  onClick : ()=>void;
+};
+
+export type NoteModalProps = {
+  title: string;
+  content: string;
+  closeNoteModal : () => void;
 };

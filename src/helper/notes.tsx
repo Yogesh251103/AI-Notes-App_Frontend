@@ -3,6 +3,7 @@ import { Note, CreateNoteProps } from "../types";
 
 const helper = {
   createNote: async ({ title, content }: CreateNoteProps) => {
+    console.log(title+" "+content)
     try {
       const response = await axios.post(
         `${import.meta.env.VITE_BACKEND_URL_DEV}/notes`,
