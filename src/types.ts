@@ -20,3 +20,8 @@ export type NoteModalProps = {
   content: string;
   closeNoteModal : () => void;
 };
+
+export type Chat = {
+  question: boolean;
+  value: string;
+}
